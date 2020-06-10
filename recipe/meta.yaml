@@ -1,6 +1,6 @@
 {% set name = "google-cloud-dlp" %}
-{% set version = "0.14.0" %}
-{% set sha256 = "0b9eeb0dabe150bfb9862b84608db4194f78d48d52fc47d856518cc8effc69d5" %}
+{% set version = "1.0.0" %}
+{% set sha256 = "2ccf04209f96b4759d8ed76da2c916a456386836caacd47ce01b6344f5b8f212" %}
 
 package:
   name: {{ name|lower }}
@@ -35,12 +35,8 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Cloud Data Loss Prevention (DLP) API client library'
-  description: Cloud Data Loss Prevention (DLP) API provides methods for detection, risk analysis, and
-    de-identification of privacy-sensitive fragments in text, images, and Google Cloud Platform storage
-    repositories.
-
-    See the [quick start guide](https://googleapis.dev/python/dlp/latest/index.html#quick-start).
+  summary: Cloud Data Loss Prevention (DLP) API client library
+  description: "Cloud Data Loss Prevention (DLP) API provides methods for detection, risk analysis, and de-identification of privacy-sensitive fragments in text, images, and Google Cloud Platform storage repositories.\nSee the [quick start guide](https://googleapis.dev/python/dlp/latest/index.html#quick-start)."
 
   doc_url: https://googleapis.dev/python/dlp/latest/index.html
   dev_url: https://github.com/googleapis/python-dlp
