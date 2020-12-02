@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-dlp
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-dlp-feedstock/blob/master/LICENSE.txt)
 
 Summary: Cloud Data Loss Prevention (DLP) API client library
+
+Development: https://github.com/googleapis/python-dlp
+
+Documentation: https://googleapis.dev/python/dlp/latest/index.html
 
 Cloud Data Loss Prevention (DLP) API provides methods for detection, risk analysis, and de-identification of privacy-sensitive fragments in text, images, and Google Cloud Platform storage repositories.
 See the [quick start guide](https://googleapis.dev/python/dlp/latest/index.html#quick-start).
