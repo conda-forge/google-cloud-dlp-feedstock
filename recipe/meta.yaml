@@ -1,6 +1,6 @@
 {% set name = "google-cloud-dlp" %}
-{% set version = "3.6.0" %}
-{% set sha256 = "20abce8d8d3939db243cbc0da62a73ff1a4e3b3b341f7ced0cfeb5e2c4a66621" %}
+{% set version = "3.6.1" %}
+{% set sha256 = "cc318b77206f9b685a35a5916a71e444966a1e5fb2bc1b87471086a9760eecec" %}
 
 package:
   name: {{ name|lower }}
