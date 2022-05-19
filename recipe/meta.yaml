@@ -1,6 +1,5 @@
 {% set name = "google-cloud-dlp" %}
-{% set version = "0.15.0" %}
-{% set sha256 = "9abef093fb344ec556a94e5466b480046c18b8bb0a12f1d202f06c43f3e01f7d" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 0b25b434ca25bbad9da04525529e929e073c09922e0c5cc5cd4b0cc2f76583bf
 
 build:
   number: 0
@@ -17,12 +16,11 @@ build:
 
 requirements:
   host:
-    - python
-    - pip >=18.1
+    - python >=3.4
+    - pip
   run:
-    - python
-    - google-api-core-grpc >=1.14.0,<2.0.0dev
-    - enum34
+    - python >=3.4
+    - google-api-core-grpc >=1.31.5,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0
 
 test:
   imports:
@@ -44,3 +42,4 @@ about:
 extra:
   recipe-maintainers:
     - parthea
+    - xylar
