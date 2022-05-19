@@ -27,6 +27,10 @@ test:
     - grpc
     - google.cloud.dlp
     - google.cloud.dlp_v2
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/googleapis/python-dlp
