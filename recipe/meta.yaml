@@ -1,6 +1,6 @@
 {% set name = "google-cloud-dlp" %}
-{% set version = "3.6.2" %}
-{% set sha256 = "30c4dea320b7d0c5bd35dad72c0a9e94879e21db1d362eeee73c1584b79e4f29" %}
+{% set version = "3.7.0" %}
+{% set sha256 = "69469b584cfea2ed762e0cacecf66795d8c79e27cf58f3ea3bc889aa40e0c7d5" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
