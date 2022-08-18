@@ -1,6 +1,6 @@
 {% set name = "google-cloud-dlp" %}
-{% set version = "3.8.0" %}
-{% set sha256 = "c62759ec4b5ec83505c715ce5e04a0e8e524ce52331209c031195e7616b4b3f6" %}
+{% set version = "3.8.1" %}
+{% set sha256 = "8cdb08a60e4cf2bed27f395d99cb00aa8c8a23fee9c30a3f664eca07074ec494" %}
 
 package:
   name: {{ name|lower }}
@@ -22,8 +22,8 @@ requirements:
   run:
     - python >=3.7
     - google-api-core-grpc >=1.32.0,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*
-    - proto-plus >=1.15.0,<2.0.0dev
-    - protobuf >=3.19.0,<4.0.0dev
+    - proto-plus >=1.22.0,<2.0.0dev
+    - protobuf >=3.19.0,<5.0.0dev
 
 test:
   imports:
