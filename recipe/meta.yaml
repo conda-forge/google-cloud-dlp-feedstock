@@ -1,5 +1,5 @@
 {% set name = "google-cloud-dlp" %}
-{% set version = "3.9.2" %}
+{% set version = "3.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-dlp-{{ version }}.tar.gz
-  sha256: ca88873b8fdd8450c664907e5a2a2ec81b5b4d058879cc1a22f47eab0f0c1815
+  sha256: d3f6d30a2d41853accf1524bb8567d819734bb066aa4085cc283eddb97e5be42
 
 build:
   number: 0
