@@ -7,7 +7,7 @@ Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-dlp-feedstock/blob/main/LICENSE.txt)
 
-Summary: Cloud Data Loss Prevention (DLP) API client library
+Summary: Google Cloud Dlp API client library
 
 Development: https://github.com/googleapis/python-dlp
 
