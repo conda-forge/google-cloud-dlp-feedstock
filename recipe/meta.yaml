@@ -35,7 +35,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/googleapis/python-dlp
+  home: https://github.com/googleapis/google-cloud-python
   summary: Google Cloud Dlp API client library
   license: Apache-2.0
   license_family: Apache
