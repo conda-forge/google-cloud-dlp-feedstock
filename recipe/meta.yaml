@@ -1,5 +1,5 @@
 {% set name = "google-cloud-dlp" %}
-{% set version = "3.12.3" %}
+{% set version = "3.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-dlp-{{ version }}.tar.gz
-  sha256: 73880f2a8bfa60049576fb94d85698aa2367d32ac901b76278fe50b75663440b
+  sha256: 985aa9b6a12f1d000a35ebf36b00ce7d0b07d120a7f446a72768ece2f229086a
 
 build:
   noarch: python
@@ -35,7 +35,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/googleapis/python-dlp
+  home: https://github.com/googleapis/google-cloud-python
   summary: Google Cloud Dlp API client library
   license: Apache-2.0
   license_family: Apache
