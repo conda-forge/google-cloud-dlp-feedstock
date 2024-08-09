@@ -9,7 +9,7 @@ Package license: Apache-2.0
 
 Summary: Google Cloud Dlp API client library
 
-Development: https://github.com/googleapis/python-dlp
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-dlp
 
 Documentation: https://googleapis.dev/python/dlp/latest/index.html
 
