@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-dlp
-  version: "3.35.0"
+  version: "3.36.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_dlp-${{ version }}.tar.gz
-  sha256: bd6a1b30f263cb170480a60bdedd0424bcc99e2039a228d9c89bb13b32c042cc
+  sha256: a239a214303ca08ccdcdd7b6ee270d2ce4e4e81955a05648ffdb383204bf5ca6
 
 build:
   number: 0
