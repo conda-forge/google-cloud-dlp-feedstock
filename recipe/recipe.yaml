@@ -39,7 +39,9 @@ tests:
         - grpc
         - google.cloud.dlp
         - google.cloud.dlp_v2
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
       pip_check: true
 
 about:
